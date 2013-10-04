@@ -1,0 +1,28 @@
+.container {
+    width: 472px;
+  height: 472px;
+  margin: 0 auto;
+}
+
+.cells {
+    float: left;
+  height: 150px;
+  width: 150px;
+  font-size: 130px;
+  text-align: center;
+  font-family: comic sans;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  margin: 3px;
+  background: #005596;
+  color: white;
+}
+
+.btn {
+  width: 100px;
+  margin: 0 auto;
+}
