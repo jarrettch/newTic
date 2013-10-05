@@ -3,7 +3,7 @@
     <h1>tic<br>tac<br>toe</h1>
   </header>
 	<div class="container">
-		<div ng-repeat="cell in board"  ng-click="clickSqr($index)" ng-bind="cell" class="cells"></div>
+		<div ng-repeat="cell in board"  ng-click="clickSqr($index)" ng-bind="cell" class="cells">{{board[index]}}</div>
     <div class="btn"><button ng-click="reset()">New Game</button></div>
 	</div>
 
